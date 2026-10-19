@@ -1,0 +1,30 @@
+<html>
+
+
+<!-- Ultimate Game Stash file--> 
+<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
+
+
+
+<head>
+	<script src="//www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load("swfobject", "2.2");
+	</script>
+	<script type="text/javascript">
+		function loadSWF() {
+			var flashvars = {};
+			var params = {
+				allowScriptAccess: "always",
+				allowFullScreen: "true"
+			};
+			var attributes = {};
+			swfobject.embedSWF("https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/lastfirered.swf", "flashcontent", "100%", "100%", "10.0.0", false, flashvars, params, attributes);
+		}
+		google.setOnLoadCallback(loadSWF);
+	</script>
+</head>
+<body style="margin:0; padding:0; overflow:hidden;">
+	<div id="flashcontent"></div>
+</body>
+</html>
