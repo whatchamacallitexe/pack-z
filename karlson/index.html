@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Karlson 2D</title>
+    <style>
+      html, body { padding: 0; margin: 0; background: #231F20; width: 100%; height: 100%; overflow: hidden; }
+      #unity-container { position: fixed; left: 0; top: 0; width: 100%; height: 100%; }
+      #unity-canvas { width: 100%; height: 100%; display: block; background: #231F20; }
+      #unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none; }
+      #unity-logo { width: 154px; height: 130px; background: url('https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/Karlson/TemplateData/unity-logo-dark.png') no-repeat center; }
+      #unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; background: url('https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/Karlson/TemplateData/progress-bar-empty-dark.png') no-repeat center; }
+      #unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/Karlson/TemplateData/progress-bar-full-dark.png') no-repeat center; }
+      #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none; }
+    </style>
+  </head>
+  <body>
+    <div id="unity-container">
+      <canvas id="unity-canvas"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+    </div>
+    <script>
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var warningBanner = document.querySelector("#unity-warning");
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+      var buildUrl = "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/Karlson/Build";
+      var config = {
+        dataUrl: buildUrl + "/Karlson.data",
+        frameworkUrl: buildUrl + "/Karlson.framework.js",
+        codeUrl: buildUrl + "/Karlson.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "Karlson 2D",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+      };
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+      }
+      loadingBar.style.display = "block";
+      var script = document.createElement("script");
+      script.src = buildUrl + "/Karlson.loader.js";
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>
