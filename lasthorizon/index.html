@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+
+<!-- Ultimate Game Stash file--> 
+<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
+
+
+
+<html lang="en-us">
+  <base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/leader%20strike/">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <body>
+  <div id="unityContainer"></div>
+</body>
+  <title>Unity WebGL Player </title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <script src="UnityLoader.js"></script>
+  <script src="UnityProgress.js"></script>
+  <script>
+    window.mergedBlobUrls = {};
+    window.assetsReady = false;
+
+    async function mergeSplitFile(fileUrlBase, numParts = 2) {
+      const partUrls = Array.from({ length: numParts }, (_, i) => 
+        `${fileUrlBase}.part${i + 1}`
+      );
+
+      try {
+        const responses = await Promise.all(
+          partUrls.map(url => fetch(url))
+        );
+
+        if (responses.some(r => !r.ok)) {
+          return null;
+        }
+
+        const parts = await Promise.all(
+          responses.map(r => r.arrayBuffer())
+        );
+
+        const combinedBlob = new Blob(parts, {
+          type: 'application/octet-stream'
+        });
+
+        return URL.createObjectURL(combinedBlob);
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function setupXHRInterceptor() {
+      if (window.xhrInterceptorInstalled) {
+        return;
+      }
+      
+      const originalOpen = XMLHttpRequest.prototype.open;
+      const originalSend = XMLHttpRequest.prototype.send;
+
+      XMLHttpRequest.prototype.open = function(method, url, ...args) {
+        this._url = url;
+        this._method = method;
+        this._args = args;
+        
+        let finalUrl = url;
+        const decodedUrl = decodeURIComponent(url);
+        
+        for (const [filename, blobUrl] of Object.entries(window.mergedBlobUrls)) {
+          if (decodedUrl.includes(filename) || url.includes(filename)) {
+            finalUrl = blobUrl;
+            break;
+          }
+        }
+        
+        return originalOpen.call(this, method, finalUrl, ...args);
+      };
+
+      window.xhrInterceptorInstalled = true;
+    }
+
+    setupXHRInterceptor();
+
+    (async function() {
+      const dataUrl = await mergeSplitFile("Build/data");
+      const wasmUrl = await mergeSplitFile("Build/wasm", 3);
+      if (dataUrl) window.mergedBlobUrls["data"] = dataUrl;
+      if (wasmUrl) window.mergedBlobUrls["wasm"] = wasmUrl;
+      window.assetsReady = true;
+
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/build.json", {onProgress: UnityProgress});
+    })();
+  </script>
+</head>
+</html>
