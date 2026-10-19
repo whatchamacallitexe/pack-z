@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Kill The Ice Age Baby Adventure</title>
+<style>
+html, body { padding: 0; margin: 0; background: #000; width: 100%; height: 100%; overflow: hidden; }
+#unity-container { position: fixed; left: 0; top: 0; width: 100%; height: 100%; }
+#unity-canvas { width: 100%; height: 100%; display: block; background: #000; }
+</style>
+</head>
+<body>
+<div id="unity-container">
+<canvas id="unity-canvas"></canvas>
+</div>
+<script>
+var canvas = document.querySelector("#unity-canvas");
+var buildUrl = "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/KillTheIceAgeBabyAdventure/Build";
+var config = {
+  dataUrl: buildUrl + "/KillTheIceAgeBabyAdventure.data",
+  frameworkUrl: buildUrl + "/KillTheIceAgeBabyAdventure.framework.js",
+  codeUrl: buildUrl + "/KillTheIceAgeBabyAdventure.wasm",
+  streamingAssetsUrl: "StreamingAssets",
+  companyName: "DefaultCompany",
+  productName: "Kill The Ice Age Baby Adventure",
+  productVersion: "1.0"
+};
+var script = document.createElement("script");
+script.src = buildUrl + "/KillTheIceAgeBabyAdventure.loader.js";
+script.onload = () => {
+  createUnityInstance(canvas, config).catch((message) => { alert(message); });
+};
+document.body.appendChild(script);
+</script>
+</body>
+</html>
