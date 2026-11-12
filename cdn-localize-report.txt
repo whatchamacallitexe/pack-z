@@ -1,0 +1,125 @@
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/Kaizo%20Mario%20World.zip: curl: (22) The requested URL returned error: 404
+
+FILE kaizo-mario-world: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/Karateka%20(USA).zip: curl: (22) The requested URL returned error: 404
+
+FILE karateka: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/Karlson/TemplateData/unity-logo-dark.png: curl: (22) The requested URL returned error: 404
+
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/Karlson/TemplateData/progress-bar-empty-dark.png: curl: (22) The requested URL returned error: 404
+
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/Karlson/TemplateData/progress-bar-full-dark.png: curl: (22) The requested URL returned error: 404
+
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/karnovrv.zip: curl: (22) The requested URL returned error: 404
+
+FILE karnovs-revenge: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/Kart%20Fighter%20(Unl).zip: curl: (22) The requested URL returned error: 404
+
+FILE kart-fighter: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/Killer%20Instinct%20(USA).zip: curl: (22) The requested URL returned error: 404
+
+FILE killer-instinct: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/kof2002.zip: curl: (22) The requested URL returned error: 403
+
+FILE king-of-fighters-2002: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/kof94.zip: curl: (22) The requested URL returned error: 404
+
+FILE king-of-fighters-94: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/kof97.zip: curl: (22) The requested URL returned error: 404
+
+FILE king-of-fighters-97: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/kof98.zip: curl: (22) The requested URL returned error: 404
+
+FILE king-of-fighters-98: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/Kirby%2064%20The%20Crystal%20Shards%20(USA).z64: curl: (22) The requested URL returned error: 404
+
+FILE kirby-64: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/Kirby%20%26%20The%20Amazing%20Mirror%20(USA,%20Australia).zip: curl: (22) The requested URL returned error: 404
+
+FILE kirby-and-the-amazing-mirror: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/Kirby%20Super%20Star%20(USA).zip: curl: (22) The requested URL returned error: 404
+
+FILE kirby-super-star: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FILE kirbys-adventure: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
+FILE kirbys-dream-land: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FILE kirbys-dream-land-2: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FILE kirbys-dream-land-3: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/KittenCannon/KittenCannon.swf: curl: (22) The requested URL returned error: 404
+
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@main/Klonoa%20-%20Door%20to%20Phantomile%20(USA).zip: curl: (22) The requested URL returned error: 404
+
+FILE klonoa-door-to-phantomile: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/KnightmareTower/KnightmareTower.swf: curl: (22) The requested URL returned error: 403
+
+FILE knuckles-chaotix: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> ../_shared/9abff16c66bf-loader.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/lastfirered.swf: curl: (22) The requested URL returned error: 404
+
+BASE OK bubbls/ugss@main/laststandunion -> last-stand
+BASE REWRITE last-stand
+FILE last-stand: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> assets/cdn/d3db844a-ruffle.min.js
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+
+FILE last-stand-2: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
+FILE last-stand-2: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/439275_LastStand2_080510_Ext.swf -> assets/cdn/170f8473-439275_LastStand2_080510_Ext.swf
+BASE OK bubbls/UGS-Assets@main/leader strike -> lasthorizon
+BASE REWRITE lasthorizon
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+
+FILE learn-to-fly: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
+FILE learn-to-fly: https://cdn.jsdelivr.net/gh/benito-camarillo/Whitespider@58638549cf66e46471d33ed01827017dd067acb5/games/flash/learn-to-fly.swf -> ../_shared/eda7628ab517-learn-to-fly.swf
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+
+FILE learn-to-fly-2: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
+FILE learn-to-fly-2: https://cdn.jsdelivr.net/gh/supaub/interstellar-3@8a13c735e7df6d86602b354e45c090405f21f45a/play/flash/swf/learn2fly2.swf -> ../_shared/cc3107016cab-learn2fly2.swf
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+
+FILE learn-to-fly-3: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
+FILE learn-to-fly-3: https://cdn.jsdelivr.net/gh/Magixxz/embeds@a9ae99acf7e9feb974b973c9331282ae025754ce/Learn-To-Fly-3.swf -> ../_shared/aa67a73cda77-Learn-To-Fly-3.swf
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+
+FILE learn-to-fly-idle: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
+FILE learn-to-fly-idle: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@06fda9100fefe4f32cf5b5d5ba022b61a7fa74f6/secure_LearnToFlyIdle.swf -> ../_shared/df4d09ce97e3-secure_LearnToFlyIdle.swf
+EMU OK genizy/emu@master cores=fbneo,fceumm,gambatte,mednafen_psx,melonds,mgba,mupen64plus_next,snes9x
+FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@a401bcb0fdfe66333c583eaba5ff219c106054a6/LEGO%20Batman%20-%20The%20Videogame%20(USA)%20(En%2CFr%2CEs)/LEGO%20Batman%20-%20The%20Videogame%20(USA)%20(En%2CFr%2CEs).nds: curl: (22) The requested URL returned error: 404
+
+FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@575eb2bcb95297810b07c1e87df8b1208c3cca17/LEGO%20Indiana%20Jones%202%20-%20The%20Adventure%20Continues%20(USA)%20(En%2CFr%2CEs)/LEGO%20Indiana%20Jones%202%20-%20The%20Adventure%20Continues%20(USA)%20(En%2CFr%2CEs).nds: curl: (22) The requested URL returned error: 404
+
+FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@6ed9e0363de3a999146c39f40c1feba8cac4deac/LEGO%20Ninjago%20-%20The%20Videogame%20(Europe)%20(En%2CFr%2CDe%2CEs%2CIt%2CNl%2CDa)/LEGO%20Ninjago%20-%20The%20Videogame%20(Europe)%20(En%2CFr%2CDe%2CEs%2CIt%2CNl%2CDa).nds: curl: (22) The requested URL returned error: 404
+
+FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@be3eda6572fba26d9575c87fd864392c7e19261c/LEGO%20Star%20Wars%20-%20The%20Complete%20Saga%20(USA)/LEGO%20Star%20Wars%20-%20The%20Complete%20Saga%20(USA).nds: curl: (22) The requested URL returned error: 404
+
+FILE lemmings: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../_shared/b3879e552666-fonts-b3879e5526.css
+FILE lemmings: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@f9eb205f8107c6b40fd44a5f629823f5ed50386d/Lemmings%20(USA).zip -> assets/cdn/7c9b87d8-Lemmings_USA_.zip
+FILE lemmings: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
+FILE lemmings: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../_shared/cccb2f51c2af-cloak.js
+BASE OK bubbls/UGS-Assets@2ac7e5b354322a207bd059768f928ece8c9471c1/level devil -> leveldevil
+BASE REWRITE leveldevil
+FILE leverwarriors: https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/leverwarriors/TemplateData/favicon.ico -> assets/cdn/5377aa89-favicon.ico
+FILE leverwarriors: https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/leverwarriors/TemplateData/style.css -> assets/cdn/59a145ab-style.css
+FILE leverwarriors: https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/leverwarriors/Build/LeverWarriors.loader.js -> assets/cdn/876928b8-LeverWarriors.loader.js
+FILE leverwarriors: https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/leverwarriors/Build/LeverWarriors.framework.js -> assets/cdn/51d3c710-LeverWarriors.framework.js
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+
+FILE line-rider: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
+FILE line-rider: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/linerider/line-rider.swf -> assets/cdn/d4283b69-line-rider.swf
+FILE link-to-the-past: https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap -> ../_shared/b3879e552666-fonts-b3879e5526.css
+FILE link-to-the-past: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/games/linktothepast/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20(Europe).zip -> assets/cdn/19ffb8b5-Legend_of_Zelda_The_-_A_Link_to_the_Past_Europe_.zip
+FILE link-to-the-past: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
+FILE link-to-the-past: https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js -> ../_shared/cccb2f51c2af-cloak.js
+FILE loderunner: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@3a2dc995ee471ecc42a252d057ba777992b1380f/Lode%20Runner%20(USA).zip -> assets/cdn/588b1d5c-Lode_Runner_USA_.zip
+FILE loderunner: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+
+FILE lonewolf: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+
+FILE losangelesshark: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
+FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@main/losangelesshark.swf: curl: (22) The requested URL returned error: 404
+
+FILE loz1: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@d9b4b1c202fd481690d67373ea7c7b91bddff189/Legend%20of%20Zelda%2C%20The%20(USA).zip -> assets/cdn/af49e071-Legend_of_Zelda_The_USA_.zip
+FILE loz1: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
+FILE lozlinkawakening: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
+FILE lozminishcap: https://cdn.jsdelivr.net/gh/Anythingsoup01/roms@cb87f7cc023dbdb801d3afe0477c2ca3a23ffc79/gba/The%20Legend%20of%20Zelda%20-%20The%20Minish%20Cap.zip -> assets/cdn/003634a7-The_Legend_of_Zelda_-_The_Minish_Cap.zip
+FILE lozminishcap: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
+FILE lozoracleofseasons: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@1ca795b68102608efdc913f2cdb287bb7e574243/Legend%20of%20Zelda%2C%20The%20-%20Oracle%20of%20Seasons%20(USA%2C%20Australia).zip -> assets/cdn/86b11fc7-Legend_of_Zelda_The_-_Oracle_of_Seasons_USA_Australia_.zip
+FILE lozoracleofseasons: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
