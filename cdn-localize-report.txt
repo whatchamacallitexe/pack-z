@@ -62,3 +62,4 @@ FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a5648
 
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@main/losangelesshark.swf: curl: (22) The requested URL returned error: 404
 
+RUFFLE FAIL module 'urllib' has no attribute 'request'
