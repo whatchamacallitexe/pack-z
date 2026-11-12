@@ -1,0 +1,11 @@
+name: Localize CDN assets
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  localize:
+    uses: whatchamacallitexe/pack-a/.github/workflows/localize-cdn.yml@main
